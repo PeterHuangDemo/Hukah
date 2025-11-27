@@ -19,7 +19,7 @@ export const COFFEE_MENU: MenuItem[] = [
     price: 15,
     category: 'coffee',
     imageUrl: 'https://picsum.photos/400/300?random=2',
-    tags: ['Popular', 'longblack']
+    tags: ['Popular', 'Longblack']
   },
   {
     id: 'c3',
