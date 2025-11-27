@@ -47,11 +47,6 @@ export const MenuPage: React.FC<MenuPageProps> = ({ type }) => {
                   src={item.imageUrl} 
                   alt={item.name} 
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                  onError={(e) => {
-                    e.currentTarget.src = type === 'coffee' 
-                      ? 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&q=80&w=800'
-                      : 'https://images.unsplash.com/photo-1542460631-13768ba60655?auto=format&fit=crop&q=80&w=800';
-                  }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-smoke-900 to-transparent opacity-80"></div>
                 

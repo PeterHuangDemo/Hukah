@@ -100,12 +100,9 @@ export const HomePage: React.FC = () => {
                 {showQr && (
                     <div className="p-3 bg-white rounded-xl animate-fade-in shadow-xl shadow-black/50">
                         <img 
-                            src="pics/qrcode.JPG"
+                            src="/pics/qrcode.JPG"
                             alt="Contact QR Code" 
                             className="w-32 h-32 object-contain"
-                            onError={(e) => {
-                              e.currentTarget.src = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${CONTACT_PHONE.replace(/\s/g, '')}`;
-                            }}
                         />
                     </div>
                 )}

@@ -19,7 +19,7 @@ export const COFFEE_MENU: MenuItem[] = [
     price: 15,
     category: 'coffee',
     imageUrl: 'https://picsum.photos/400/300?random=2',
-    tags: ['Popular', 'Longblack']
+    tags: ['Popular', 'longblack']
   },
   {
     id: 'c3',
@@ -102,7 +102,7 @@ export const HOOKAH_MENU: MenuItem[] = [
     description: 'Local mungbean with childhood memory',
     price: 249.00,
     category: 'hookah',
-    imageUrl: '/pics/mungbean.jpg',
+    imageUrl: '/pics/coffee.jpg',
     tags: ['Fruity', 'Summer']
   }
 ];
