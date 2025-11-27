@@ -102,7 +102,7 @@ export const HOOKAH_MENU: MenuItem[] = [
     description: 'Local mungbean with childhood memory',
     price: 249.00,
     category: 'hookah',
-    imageUrl: 'pics/Hukah.jpg',
+    imageUrl: '/pics/mungbean.jpg',
     tags: ['Fruity', 'Summer']
   }
 ];
