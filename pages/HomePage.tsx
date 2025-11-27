@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Clock, MapPin, ArrowRight, Phone, QrCode } from 'lucide-react';
+import { Clock, MapPin, Phone, QrCode } from 'lucide-react';
 import { OPENING_HOURS, CONTACT_PHONE } from '../constants';
 import { Button } from '../components/Button';
 import { useTranslation } from '../utils/i18nContext';
