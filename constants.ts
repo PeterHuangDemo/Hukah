@@ -27,7 +27,7 @@ export const COFFEE_MENU: MenuItem[] = [
     description: 'Cold brew coffee infused with light roast bean.',
     price: 15,
     category: 'coffee',
-    imageUrl: '/pics/coldbrew.jpg',
+    imageUrl: '/pics/coldb.jpg',
     tags: ['Cold', 'Smooth']
   },
   {
