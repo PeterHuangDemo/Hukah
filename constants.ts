@@ -9,7 +9,7 @@ export const COFFEE_MENU: MenuItem[] = [
     description: 'Dark roast blend with notes of dark chocolate and nuts.',
     price: 8,
     category: 'coffee',
-    imageUrl: 'https://picsum.photos/400/300?random=1',
+    imageUrl: '/pics/espresso.jpg',
     tags: ['Signature', 'Strong']
   },
   {
@@ -18,7 +18,7 @@ export const COFFEE_MENU: MenuItem[] = [
     description: 'Combine with local spring water to make perfect taste.',
     price: 15,
     category: 'coffee',
-    imageUrl: 'https://picsum.photos/400/300?random=2',
+    imageUrl: '/pics/iceam.jpg',
     tags: ['Popular', 'Longblack']
   },
   {
@@ -27,7 +27,7 @@ export const COFFEE_MENU: MenuItem[] = [
     description: 'Cold brew coffee infused with light roast bean.',
     price: 15,
     category: 'coffee',
-    imageUrl: 'https://picsum.photos/400/300?random=3',
+    imageUrl: '/pics/coldbrew.jpg',
     tags: ['Cold', 'Smooth']
   },
   {
@@ -36,7 +36,7 @@ export const COFFEE_MENU: MenuItem[] = [
     description: 'Dark roast with local farm milk.',
     price: 18,
     category: 'coffee',
-    imageUrl: 'https://picsum.photos/400/300?random=4',
+    imageUrl: '/pics/latte.jpeg',
     tags: ['Traditional', 'Milky']
   },
   {
@@ -45,7 +45,7 @@ export const COFFEE_MENU: MenuItem[] = [
     description: 'Combine with good old Jack Daniels.',
     price: 20,
     category: 'coffee',
-    imageUrl: 'https://picsum.photos/400/300?random=5',
+    imageUrl: '/pics/irish.jpg',
     tags: ['Whiskey', 'Mousse']
   },
   {
@@ -54,7 +54,7 @@ export const COFFEE_MENU: MenuItem[] = [
     description: 'Selected SOE beans.',
     price: 25,
     category: 'coffee',
-    imageUrl: 'https://picsum.photos/400/300?random=5',
+    imageUrl: '/pics/pourover.png',
     tags: ['Sweet', 'Floral']
   }
 ];
@@ -66,7 +66,7 @@ export const HOOKAH_MENU: MenuItem[] = [
     description: 'Signature flavour of coffee using premium cigar leaf and espressor base to increase tensity.',
     price: 249.00,
     category: 'hookah',
-    imageUrl: 'https://picsum.photos/400/300?random=6',
+    imageUrl: '/pics/coffee.jpg',
     tags: ['Signature', 'Coffee']
   },
   {
@@ -75,7 +75,7 @@ export const HOOKAH_MENU: MenuItem[] = [
     description: 'Refreshing green tea with milk and Jasmine from Heng County.',
     price: 249.00,
     category: 'hookah',
-    imageUrl: 'https://picsum.photos/400/300?random=7',
+    imageUrl: '/pics/jasmine.png',
     tags: ['Tea', 'Milky']
   },
   {
@@ -84,16 +84,16 @@ export const HOOKAH_MENU: MenuItem[] = [
     description: 'Entry level shisha with strong ice and strawberry',
     price: 99.00,
     category: 'hookah',
-    imageUrl: 'https://picsum.photos/400/300?random=8',
+    imageUrl: '/pics/icestraw.jpg',
     tags: ['Strawberry', 'Fresh']
   },
   {
     id: 'h4',
-    name: 'Sandalwood',
-    description: 'MIddle eastern sense, taste like mysterious',
+    name: 'Mysterious Middle East',
+    description: 'sandalwood sense, taste like mysterious',
     price: 249.00,
     category: 'hookah',
-    imageUrl: 'https://images.unsplash.com/photo-1527661591475-527312dd65f5?auto=format&fit=crop&q=80&w=800',
+    imageUrl: '/pics/sandalwood.jpg',
     tags: ['Wood', 'Sweet']
   },
   {
@@ -102,7 +102,7 @@ export const HOOKAH_MENU: MenuItem[] = [
     description: 'Local mungbean with childhood memory',
     price: 249.00,
     category: 'hookah',
-    imageUrl: '/pics/coffee.jpg',
+    imageUrl: '/pics/mungbean.jpg',
     tags: ['Fruity', 'Summer']
   }
 ];
